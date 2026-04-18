@@ -1,0 +1,18 @@
+import { BaseSchema } from '@adonisjs/lucid/schema'
+
+export default class extends BaseSchema {
+  protected tableName = 'cpx_seeders'
+
+  async up() {
+    this.schema.createTable(this.tableName, (table) => {
+      table.increments('id').comment('Id')
+      table.string('name').notNullable().unique().comment('Name')
+      table.integer('batch').comment('Batch')
+      table.timestamp('migration_time').defaultTo(this.now()).comment('Created at')
+    })
+  }
+
+  async down() {
+    this.schema.dropTable(this.tableName)
+  }
+}
