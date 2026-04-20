@@ -1,6 +1,6 @@
 {
   "name": "@cpxproject/seeders-adonisjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run your seeders like migrations: once, safely, and tracked.",
   "keywords": [
     "adonisjs",
@@ -9,13 +9,13 @@
     "database",
     "migrations"
   ],
-  "homepage": "https://github.com/cristianmendozacopixil/cpx-seeders-adonisjs#readme",
+  "homepage": "https://github.com/cpxcristian/cpx-seeders-adonisjs#readme",
   "bugs": {
-    "url": "https://github.com/cristianmendozacopixil/cpx-seeders-adonisjs/issues"
+    "url": "https://github.com/cpxcristian/cpx-seeders-adonisjs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cristianmendozacopixil/cpx-seeders-adonisjs.git"
+    "url": "git+https://github.com/cpxcristian/cpx-seeders-adonisjs.git"
   },
   "license": "MIT",
   "author": "Cristian Mendoza <khris.cmd@gmail.com>",
